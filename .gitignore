@@ -1,0 +1,8 @@
+terraform_infra/dev.tfvars
+terraform_infra/.terraform
+terraform_infra/.terraform.lock.hcl
+.gitattributes
+.venv
+.vscode
+terraform_infra/*.tfstate
+.DS_Store
