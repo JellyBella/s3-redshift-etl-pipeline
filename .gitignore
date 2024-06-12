@@ -1,6 +1,5 @@
 terraform_infra/dev.tfvars
-terraform_infra/.terraform
-terraform_infra/.terraform.lock.hcl
+terraform_infra/.terraform/
 .gitattributes
 .venv
 .vscode
