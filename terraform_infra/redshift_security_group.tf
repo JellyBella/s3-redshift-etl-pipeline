@@ -14,13 +14,6 @@ resource "aws_security_group" "redshift-serverless-security-group" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-  # {
-  #   description = "bella home"
-  #   from_port   = 5439
-  #   to_port     = 5439
-  #   protocol    = "tcp"
-  #   cidr_blocks = ["87.121.72.204/32"] //
-  # }
 
   tags = {
     Name = "${var.app_name}-redshift-serverless-security-group"
